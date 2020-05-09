@@ -1,2 +1,0 @@
-# githubmrpc.github.io
-mrpc
