@@ -1,0 +1,90 @@
+
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>学习周报社</title>
+<link href="templates/default/css/style.css" rel="stylesheet" type="text/css" />
+<link href="templates/default/css/swiper.min.css" rel="stylesheet" type="text/css" />
+<script src="templates/default/js/jquery-1.9.1.min.js"></script>
+<script src="templates/default/js/swiper.min.js"></script>
+<script src="templates/default/js/audiojs/audio.min.js"></script>
+<link rel="stylesheet" href="templates/default/css/includes/index.css" media="screen">
+</head>
+<style>
+    .cl{
+        clear: both;
+    }
+    .autio_center{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .autio_center .autio_name{
+        font-size: 1rem;
+        color: #261700;
+        text-align: center;
+        /*font-style:italic;*/
+    }
+    .autio_center ul li{
+        font-size: 0.8rem;
+        color: #666;
+        /*font-style:italic;*/
+    }
+    .autio_center ul li{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    header{
+        background: #E60012;
+        height: 3rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+    .inter{
+        font-size: 1rem;
+        color: #fff;
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-top: 0.3rem;
+    }
+    .audiojs .scrubber{
+        width: 48%;
+    }
+</style>
+<body style="background: #F7F7EE;margin:0;">
+
+<a href="index.php?p=autio_type&lanmu=12"><div class='outer top re'>
+    <div class='inter'>
+        <div class='a1 fl'><img style="position: absolute; left: 3%; width: 3%;
+    top: 1rem;" src='templates/default/images/jian.png' width='100%'></div>
+        19-20学年下学期 英语·江西七年级(人教)
+    </div>
+</div></a>
+<div class="autio_center">
+    <div style="height: 1rem;"></div>
+    <ul>
+        <li><!--时间：2019-11-08&nbsp;&nbsp;&nbsp;-->浏览量：没有人愿意听这个快乐源泉</li>
+    </ul>
+    <div style="height:1rem;"></div>
+    <div style="height:1rem;border-top: 1px dashed #f2f2f2;"></div>
+    <div class="autio_content">
+                    <div style="font-size: 0.9rem;margin-bottom: 6px;">第38期 Unit 7同步测试</div>
+            <audio src="http://m10.music.126.net/20200611212423/1b96f1152d7c33a7ba49aab02148ac63/ymusic/46d3/fda8/69b0/ab042a672131f43d507c8b2ec7aee5db.mp3" preload="none" style="width:80%"></audio>
+            <!-- <audio controls>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="http://m10.music.126.net/20200611212423/1b96f1152d7c33a7ba49aab02148ac63/ymusic/46d3/fda8/69b0/ab042a672131f43d507c8b2ec7aee5db.mp3" type="audio/mpeg">
+            </audio> -->
+            <div style="height:20px;"></div>
+            </div>
+</div>
+</body>
+<script>
+    audiojs.events.ready(function() {
+        audiojs.createAll();
+    });
+</script>
+</html>
